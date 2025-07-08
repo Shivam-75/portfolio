@@ -1,0 +1,67 @@
+.socail-media {
+  background-color: black;
+  height: 100vh;
+  padding: 20px;
+
+  h1:first-child {
+    color: cyan;
+    text-align: center;
+  }
+}
+.contetent-cards {
+    border: 1px solid rgb(5, 255, 251);
+    margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  animation: fadeIn2 1s linear;
+
+  .social-media {
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 750px) {
+  .contetent-cards {
+    justify-content: center;
+  }
+  .social-media {
+    width: 100%;
+  }
+}
+.programing-icons {
+    color: cyan;
+    font-size: 10.4vmin;
+  padding: 4px;
+}
+.content-icons-div {
+  border: 1px solid rgb(5, 255, 251);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  transition: 1s;
+  padding: 4px;
+  h1:last-child {
+    color: cyan;
+}
+}
+.content-icons-div:hover{
+    transform:scale(1.1)
+}
+@media (max-width:750px) {
+    .content-icons-div{
+        width: 60%;
+        padding: 6px;
+    }
+}
+.hr{
+    margin-top: 20px;
+    border: 1px solid rgb(5, 255, 251);
+}

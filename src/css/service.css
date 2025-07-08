@@ -1,0 +1,28 @@
+.service{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+
+}
+.service h1{
+    padding: 10px;
+    color: cyan;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 5.3vmin;
+    font-family: 'Segoe UI', sans-serif;
+
+}
+.service-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+    margin-top: 30px;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

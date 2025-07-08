@@ -1,0 +1,26 @@
+import React, { useState } from "react";
+import "../../css/projectpic.css";
+import { NavLink } from "react-router-dom";
+import SectionWrapper from "../scrol/SectionWraper";
+const ProjectPic = ({ project }) => {
+  const [pr, setpr] = useState(project);
+  console.log(pr);
+  
+  return (
+    <div className="projectpic">
+      <h1 className="projectpic-title">Projects</h1>
+      <SectionWrapper>
+        <div className="projectPic-main">
+          {pr.map((items) => (
+            <div className="project-card">
+              <img src={items.img} alt="" />
+              <h1 className="project-card-h1">{items.title}</h1>
+            </div>
+          ))}
+        </div>
+      </SectionWrapper>
+    </div>
+  );
+};
+
+export default ProjectPic;

@@ -1,0 +1,40 @@
+.progresh-card {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 25px;
+}
+.progress-bar-card {
+  width: 370px;
+  border: 1px solid rgb(3, 247, 255);
+  color: cyan;
+  border-radius: 10px;
+  padding: 30px;
+  transition: 0.3s;
+}
+progress {
+  width: 60%;
+  margin: 0 5px;
+}
+.sole {
+  /* border: 1px solid white; */
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.progress-dts {
+  text-align: center;
+}
+
+.progress-bar-card:hover {
+    box-shadow: 0px 0px 7px rgb(13, 247, 251), inset 0px 0px 20px cyan;
+  transform: translateY(-5px);
+}
+@media (max-width: 750px) {
+  .progress-bar-card {
+    width: 90vmin;
+    margin: 0px -16px;
+  }
+}

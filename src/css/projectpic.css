@@ -1,0 +1,62 @@
+.projectpic {
+  height: 100vmin;
+  background-color: black;
+  padding: 20px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.projectpic-title {
+  color: cyan;
+  text-align: center;
+  font-size: 5.5vmin;
+}
+.projectPic-main {
+  height: 655px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+.project-card {
+  height: 230px;
+  width: 53vmin;
+  margin: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+@media (max-width:750px) {
+  .projectPic-main {
+    height: 90vh;
+    justify-content: space-around;
+  }
+  .project-card {
+    width: 90vmin;
+    margin: 20px 15px;
+  }
+  .project-card-h1 {
+    color: cyan;
+    font-size: 3.5vmin;
+    margin-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+  }
+ 
+}
+.project-card-h1 {
+  color: cyan;
+  font-size: 3.5vmin;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+}
+.project-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+    transition: 1s;
+}
+
+.project-card img:hover{
+    transform: translateY(-10px);
+
+}

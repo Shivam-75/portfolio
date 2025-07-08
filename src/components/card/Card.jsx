@@ -10,9 +10,9 @@ const Card = ({ item }) => {
             <SectionWrapper>
               <div key={index} className="card">
                 <div className="card-img">
-                  <img src={item?.img} alt="" />
+                  <div className="card-img-img">{item?.img}</div>
                 </div>
-                <h1>{item.title}</h1>
+                <h1 className="card-h1">{item.title}</h1>
                 <p>{item.description}</p>
               </div>
             </SectionWrapper>

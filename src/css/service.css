@@ -6,12 +6,18 @@
 
 }
 .service h1{
-    padding: 10px;
-    color: cyan;
+    padding:6px;
+    color: rgb(220, 255, 139);;
     text-align: center;
     margin-top: 10px;
-    font-size: 5.3vmin;
+    font-size: 4.3vmin;
     font-family: 'Segoe UI', sans-serif;
+
+}
+.service .card-h1{
+    color: rgb(220, 255, 139);
+    font-size: 3.3vmin;
+    padding: 10px;
 
 }
 .service-card {

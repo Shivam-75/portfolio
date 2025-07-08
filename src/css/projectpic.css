@@ -5,7 +5,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .projectpic-title {
-  color: cyan;
+  color: rgb(220, 255, 139);
   text-align: center;
   font-size: 5.5vmin;
 }
@@ -34,7 +34,8 @@
     margin: 20px 15px;
   }
   .project-card-h1 {
-    color: cyan;
+    color: rgb(220, 255, 139);
+    
     font-size: 3.5vmin;
     margin-top: 10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -43,7 +44,7 @@
  
 }
 .project-card-h1 {
-  color: cyan;
+  color: rgb(220, 255, 139);
   font-size: 3.5vmin;
   font-family:Georgia, 'Times New Roman', Times, serif;
  

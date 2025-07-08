@@ -24,12 +24,13 @@
 }
 
 .header-content-name{
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     padding: 10px;
     justify-content: center;
     margin-left: 30px;
+    overflow: hidden;
 }
 .header-content-name h3,.header-content-name p{
     margin: 10px 10px;
@@ -72,6 +73,8 @@
     }
     .header-content-name{
         width: 100%;
+        margin: 0;
+        overflow: hidden;
     }
     .header-content-name button{
         width: 40vmin;
@@ -79,7 +82,7 @@
     }
     .header-content-name h3,.header-content-name p{
         margin: 8px 0px;
-        font-size: 2.3vmin;
+        font-size: 3.3vmin;
     }
     .header-card-img{
         width: 100%;

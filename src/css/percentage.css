@@ -7,8 +7,8 @@
 }
 .progress-bar-card {
   width: 370px;
-  border: 1px solid rgb(3, 247, 255);
-  color: cyan;
+  border: 1px dashed rgb(220, 255, 139);
+  color: rgb(220, 255, 139);
   border-radius: 10px;
   padding: 30px;
   transition: 0.3s;
@@ -29,7 +29,7 @@ progress {
 }
 
 .progress-bar-card:hover {
-    box-shadow: 0px 0px 7px rgb(13, 247, 251), inset 0px 0px 20px cyan;
+    box-shadow: 0px 0px 7px rgb(220, 255, 139);
   transform: translateY(-5px);
 }
 @media (max-width: 750px) {

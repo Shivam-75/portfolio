@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 3rem 2rem;
 background-color: black;
-  color: cyan;
+color: white;
 
   font-family: cursive;
 
@@ -14,7 +14,7 @@ background-color: black;
   font-weight: 700;
   text-align: center;
   margin-bottom: 1.5rem;
-  color:rgb(7, 218, 255);
+  color: white;
 }
 
 .about-description {
@@ -23,10 +23,10 @@ background-color: black;
   margin-bottom: 2rem;
   text-align: justify;
   font-family: cursive;
-  color: cyan;
+  color: white;
 }
 
 .border-about{
-  border: 1px solid rgb(3, 247, 255);
+  color: white;
 }
 

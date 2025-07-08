@@ -6,7 +6,7 @@
     margin: 10px;
     border-radius: 10px;
     background-color: rgb(36, 32, 32);
-    color: cyan;
+    color: rgb(220, 255, 139);
     padding: 0px 10px;
     overflow: hidden;
     cursor: pointer;
@@ -17,7 +17,7 @@
 .card-img{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 8px;
 }
 .card h1{
     text-align: center;
@@ -38,4 +38,8 @@
     .card{
         width: 90vmin;
     }
+}
+.card-img-img{
+    font-size: 50px;
+    color: rgb(220, 255, 139);
 }

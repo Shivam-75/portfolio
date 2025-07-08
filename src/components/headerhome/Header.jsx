@@ -13,13 +13,17 @@ const Header = () => {
           </div>
         </div>
         <div className="header-content-name">
-          <h3>Hello , My Name is Shivam Pandey</h3>
-          <p>I'm a App Developer and Web Developer</p>
+          <h3 style={{color:"blue", fontSize:"2.2vmin"}}>Shivam Pandey</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-            dolorem voluptas quis harum iure rem! Quidem maiores reprehenderit
-            ipsum obcaecati beatae delectus fugit totam facere ad, fuga, quae
-            dolor amet.
+            Hi, I'm Shivam Pandey, a passionate App Developer and Web Developer
+            dedicated to crafting seamless digital experiences. I specialize in
+            building responsive websites, scalable web apps, and efficient
+            mobile applications that solve real-world problems. With a strong
+            foundation in both frontend and backend technologies, I focus on
+            writing clean, maintainable code and delivering intuitive user
+            interfaces. Whether it's creating dynamic web applications or
+            high-performance mobile apps, I bring creativity, precision, and
+            problem-solving to every project.
           </p>{" "}
         </div>
       </div>

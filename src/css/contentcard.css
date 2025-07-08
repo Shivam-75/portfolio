@@ -9,7 +9,9 @@
 }
 
 .skill-card {
-  border:1px solid cyan;
+  border:1px dashed rgb(220, 255, 139);
+  color: rgb(139, 255, 230);
+
 
   border-radius: 10px;
   padding: 1.2rem 1.5rem;
@@ -20,20 +22,20 @@
 
 .skill-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 0px 7px rgb(13, 247, 251), inset 0px 0px 20px cyan;
+  box-shadow: 0px 0px 7px rgb(220, 255, 139);
 
 }
 
 .skill-card h4 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color:rgb(11, 220, 178);
+  color: rgb(139, 143, 255);
 }
 
 .skill-card p {
   font-size: 1rem;
   line-height: 1.5;
-  color: cyan;
+  color: rgb(139, 143, 255);
 }
 
 @media (max-width: 750px) {

@@ -9,7 +9,7 @@ const Header = () => {
       <div className="header-card">
         <div className="header-card-img">
           <div className="header-card-home-imgs">
-            <img src="./1731513252168 - Copy.jpg" alt="" />
+            <img src="/1731513252168 - Copy.jpg" alt="" />
           </div>
         </div>
         <div className="header-content-name">

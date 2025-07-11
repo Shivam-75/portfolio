@@ -14,9 +14,10 @@ const Percentage = ({ item }) => {
               <div className="progress-bar-card">
                 {itemdata.data.map((itemssdt, subIndex) => (
                   <div className="sole" key={subIndex}>
-                    <span>{itemssdt.title}</span>
+                    <div className="ssbv">
+                      <span>{itemssdt.title}</span> <span>{itemssdt.pt}%</span>
+                    </div>{" "}
                     <progress value={itemssdt.pt} max="100" />
-                    <span>{itemssdt.pt}%</span>
                   </div>
                 ))}
               </div>

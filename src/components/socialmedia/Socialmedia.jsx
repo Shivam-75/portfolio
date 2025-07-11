@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaJs, FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaJs, FaLinkedin, FaPersonCircleCheck } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 import "../../css/social.css";
 import { FaFileDownload } from "react-icons/fa";
@@ -15,11 +15,11 @@ import { SiMysql } from "react-icons/si";
 const Socialmedia = () => {
   const list = [
     {
-      title: "CSS",
+      title: "CSS3",
       icons: <FaCss3Alt className="programing-icons" />,
     },
     {
-      title: "HTML",
+      title: "HTML5",
       icons: <FaHtml5 className="programing-icons" />,
     },
     {
@@ -50,6 +50,10 @@ const Socialmedia = () => {
       title: "Express",
       icons: <SiExpress className="programing-icons" />,
     },
+    {
+      title: "ChatGPT",
+      icons: <FaPersonCircleCheck className="programing-icons" />,
+    },
   ];
 
   return (
@@ -63,7 +67,6 @@ const Socialmedia = () => {
           </div>
         ))}
       </div>
-      
     </div>
   );
 };

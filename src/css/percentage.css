@@ -13,15 +13,21 @@
   transition: 0.3s;
 }
 progress {
-  width: 60%;
+  width: 98%;
   margin: 0 5px;
   
 }
 .sole {
   height: 35px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.ssbv{
   display: flex;
+  width: 100%;
   justify-content: space-between;
-  align-items: center;
+
 }
 .progress-dts {
   text-align: center;

@@ -1,41 +1,40 @@
 .contact {
-  height: 100vh;
-  background-color: black;
-  color: cyan;
+ /* border: 1px solid black; */
   overflow: hidden;
+  height: 100vh;
+  padding: 30px 0;
 }
 
 .contacth1 {
   font-size: 2.2rem;
   font-weight: 700;
   text-align: center;
-  color: white;
   margin: 20px;
 }
 
 .contact-header-content {
   margin-top: 70px;
+  animation: fadeIn2 1s linear;
+
 }
 .contact-header-content h1 {
   text-align: center;
   font-size: 5.3vmin;
-  color: white;
   animation: fadeIn2 1s linear;
 }
 .contact-header-content p {
   text-align: center;
   font-size: 3.3vmin;
   padding: 10px 0;
-  animation: fadeIn2 1s linear;
-  color: white;
 }
 .contact-imgs {
-  height: 120px;
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  height: 100px;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  animation: fadeIn 1s linear;
+  animation: fadeIn2 1s linear;
+
 }
 .contact-img-contents {
   width: 190px;
@@ -50,16 +49,13 @@
 }
 .contact-icons {
   font-size: 30px;
-  color: cyan;
+  color: black;
 }
 .contact-email {
   height: 280px;
 }
 .contact-email-input {
-  /* background-color: rgb(36, 32, 32); */
-  /* box-shadow: 0px 0px 10px white, -0px -0px 10px red; */
-  border:1px dashed rgb(220, 255, 139);;
-
+  box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px rgb(238, 233, 233);
   border-radius: 10px;
   height: inherit;
   display: flex;
@@ -74,9 +70,8 @@
   margin: auto;
   padding: 10px;
   border-radius: 10px;
-  border:1px dashed rgb(220, 255, 139);;
   background: none;
-  color: white;
+  border: 1px solid black
 }
 .contact-email-input button {
   width: 80%;
@@ -87,7 +82,9 @@
   background-color: blue;
   outline: none;
   border: none;
-  color: cyan;
+}
+.contact-email-input button:active{
+  background-color: green;
 }
 .contact-email-input textarea {
   resize: none;
@@ -95,10 +92,8 @@
   width: 80%;
   margin: auto;
   border-radius: 7px;
-  border:1px dashed rgb(220, 255, 139);;
   padding: 10px;
   background: none;
-  color: cyan;
 }
 
 input {
@@ -116,11 +111,6 @@ input {
   .contact-header-content {
     margin: 15px;
     padding: 0;
-  }
-  .contact-imgs {
-    flex-wrap: wrap;
-    padding: 0;
-    height: 0px;
   }
   .contact-img-contents {
     font-size: 3vmin;

@@ -7,19 +7,20 @@
 .navbar-aside {
   display: flex;
   flex-direction: column;
-  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px rgb(238, 233, 233);
+
   width: 35vmin;
   height: 100vmin;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgba(23, 13, 13, 0.968);
+  /* background-color: rgba(23, 13, 13, 0.968); */
 
   .shivam-name {
-    background: linear-gradient(blue);
+    /* background: linear-gradient(blue); */
     font-size: 4.5vmin;
     background-clip: text;
     color: transparent;
-    animation: changecolor 1s  linear infinite;
+    animation: changecolor 1s linear infinite;
   }
 }
 .nav-contetnts {
@@ -28,20 +29,21 @@
   flex-direction: column;
   width: inherit;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 .navlink {
   font-size: 20px;
   font-weight: 900;
   text-decoration: none;
-  color: cyan;
+  color: black;
   text-transform: capitalize;
-  transition: 0.4s;
+  transition: 0.3s;
   position: relative;
 }
 
 .navlink:hover {
   transform: translatex(5px);
+  color: green;
 }
 
 .nav-outlet {
@@ -53,30 +55,30 @@
   display: flex;
   gap: 12px;
 }
-.navlink:hover {
-  color: rgb(255, 0, 217);
-}
+
 @media (max-width: 750px) {
   .navbar {
     flex-wrap: wrap;
   }
   .navbar-aside {
     width: 100%;
-    height: 150px;
+    height: 80px;
     padding-bottom: 40px;
   }
   .navbar-aside h1 {
     display: none;
   }
   .nav-outlet {
-    height: 78vh;
-    background-color: black;
+    height: 100vh;
   }
   .nav-contetnts {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 20px;
+  }
+  .navlink {
+    font-size: 15px;
   }
 }
 

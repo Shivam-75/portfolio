@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <header className="navbar">
       <aside className="navbar-aside">
-        <h1 className="shivam-name">Shivam Pandey</h1>
+        <h1 className="shivam-name">Rolex</h1>
         <div className="nav-contetnts">
           <NavLink className="navlink" to="/">
             <div className="ss-nav">
@@ -43,12 +43,6 @@ const Nav = () => {
             <div className="ss-nav">
               <FaRProject />
               Project
-            </div>
-          </NavLink>
-          <NavLink className="navlink" to="/social">
-            <div className="ss-nav">
-              <FaGithub />
-              Social Media
             </div>
           </NavLink>
         </div>

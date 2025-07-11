@@ -6,14 +6,14 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header-home">
-      <div className="header-card">
-        <div className="header-card-img">
-          <div className="header-card-home-imgs">
-            <img src="/1731513252168 - Copy.jpg" alt="" />
-          </div>
+      <div className="header-card-img">
+        <div className="shivam-pic">
+          <img src="/1731513252168 - Copy.jpg" alt="" />
+          <h4>shivam pandey</h4>
         </div>
+      </div>
+      <div className="header-card">
         <div className="header-content-name">
-          <h3 style={{color:"blue", fontSize:"2.2vmin"}}>Shivam Pandey</h3>
           <p>
             Hi, I'm Shivam Pandey, a passionate App Developer and Web Developer
             dedicated to crafting seamless digital experiences. I specialize in

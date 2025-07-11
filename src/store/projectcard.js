@@ -5,7 +5,7 @@ export const project$card = [
     },
     {
         img: "/image copy 2.png",
-        title: "Pathology Billing and Booking",
+        title: "Pathology Booking and Billing System",
     },
     {
         img: "/image copy 3.png",

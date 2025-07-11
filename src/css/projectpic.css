@@ -1,16 +1,14 @@
 .projectpic {
   height: 100vmin;
-  background-color: black;
   padding: 20px 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .projectpic-title {
-  color: rgb(220, 255, 139);
   text-align: center;
   font-size: 5.5vmin;
 }
 .projectPic-main {
-  height: 655px;
+  height: 90vh;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +22,7 @@
   flex-direction: column;
   text-align: center;
 }
-@media (max-width:750px) {
+@media (max-width:750px)  {
   .projectPic-main {
     height: 90vh;
     justify-content: space-around;
@@ -34,7 +32,6 @@
     margin: 20px 15px;
   }
   .project-card-h1 {
-    color: rgb(220, 255, 139);
     
     font-size: 3.5vmin;
     margin-top: 10px;
@@ -44,7 +41,6 @@
  
 }
 .project-card-h1 {
-  color: rgb(220, 255, 139);
   font-size: 3.5vmin;
   font-family:Georgia, 'Times New Roman', Times, serif;
  
@@ -60,4 +56,15 @@
 .project-card img:hover{
     transform: translateY(-10px);
 
+}
+
+@media (max-width:1103px) {
+  .projectPic-main{
+    justify-content: center;
+  }
+}
+@media (max-width:1303px) {
+  .projectPic-main{
+    justify-content: center;
+  }
 }

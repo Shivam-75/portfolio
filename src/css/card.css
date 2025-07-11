@@ -1,17 +1,15 @@
 .card{
     height: 250px;
     
-    /* border: 1px solid black; */
     width: 370px;
     margin: 10px;
     border-radius: 10px;
-    background-color: rgb(36, 32, 32);
-    color: rgb(220, 255, 139);
     padding: 0px 10px;
     overflow: hidden;
     cursor: pointer;
     transition: 0.7s;
-    box-shadow: 0px 0px 10px white,-0px -0px 10px red;
+    box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px rgb(238, 233, 233);
+
 
 }
 .card-img{
@@ -41,5 +39,5 @@
 }
 .card-img-img{
     font-size: 50px;
-    color: rgb(220, 255, 139);
+    /* color: rgb(220, 255, 139); */
 }

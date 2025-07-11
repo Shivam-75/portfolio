@@ -6,31 +6,31 @@
   gap: 25px;
 }
 .progress-bar-card {
-  width: 370px;
-  border: 1px dashed rgb(220, 255, 139);
-  color: rgb(220, 255, 139);
+  width: 360px;
   border-radius: 10px;
   padding: 30px;
+  box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px rgb(238, 233, 233);
   transition: 0.3s;
 }
 progress {
   width: 60%;
   margin: 0 5px;
+  
 }
 .sole {
-  /* border: 1px solid white; */
-  height: 40px;
+  height: 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .progress-dts {
   text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
 }
 
 .progress-bar-card:hover {
-    box-shadow: 0px 0px 7px rgb(220, 255, 139);
-  transform: translateY(-5px);
+  transform: scale(1.1);
 }
 @media (max-width: 750px) {
   .progress-bar-card {
@@ -38,3 +38,15 @@ progress {
     margin: 0px -16px;
   }
 }
+@media (max-width: 1080px) {
+  .progresh-card {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1380px) {
+  .progresh-card {
+    justify-content: center;
+  }
+}
+

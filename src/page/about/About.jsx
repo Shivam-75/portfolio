@@ -6,6 +6,7 @@ import ContentCard from "../../components/card/ContentCard";
 import { item } from "../../store/item";
 import { prcentageCard } from "../../store/percentage";
 import Percentage from "../../components/card/Percentage";
+import Socialmedia from "../../components/socialmedia/Socialmedia";
 
 const About = () => {
   return (

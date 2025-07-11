@@ -3,9 +3,7 @@ import "../../css/projectpic.css";
 import { NavLink } from "react-router-dom";
 import SectionWrapper from "../scrol/SectionWraper";
 const ProjectPic = ({ project }) => {
-  const [pr, setpr] = useState(project);
-  console.log(pr);
-  
+  const [pr, setpr] = useState(project);  
   return (
     <div className="projectpic">
       <h1 className="projectpic-title">Projects</h1>

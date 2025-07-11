@@ -54,38 +54,16 @@ const Socialmedia = () => {
 
   return (
     <div className="socail-media">
-      <h1>Social Media</h1>
+      <hr className="hr" />
       <div className="contetent-cards">
-        <NavLink className="navlink" to="https://github.com/Shivam-75">
-          <div className="social-media">
-            <FaGithub />
-            GitHub
-          </div>
-        </NavLink>
-        <NavLink className="navlink" to="">
-          <div className="social-media">
-            <FaFileDownload />
-            Resume
-          </div>
-        </NavLink>
-        <NavLink
-          className="navlink"
-          to="https://www.linkedin.com/in/shivam-pandey2006/">
-          <div className="social-media">
-            <FaLinkedin />
-            Linkedin
-          </div>
-        </NavLink>
-          </div>
-          <hr  className="hr"/>
-      <div className="contetent-cards">
-        {list.map((items,index) => (
+        {list.map((items, index) => (
           <div key={index} className="content-icons-div">
             <>{items.icons}</>
-            <h1 >{items.title}</h1>
+            <h1>{items.title}</h1>
           </div>
         ))}
       </div>
+      
     </div>
   );
 };

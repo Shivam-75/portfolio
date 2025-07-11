@@ -12,7 +12,9 @@ const ProjectPic = ({ project }) => {
           {pr.map((items) => (
             <div className="project-card">
               <img src={items.img} alt="" />
-              <h1 className="project-card-h1">{items.title}</h1>
+              <NavLink to={items.github} className="project-card-h1">
+                {items.title}
+              </NavLink>
             </div>
           ))}
         </div>

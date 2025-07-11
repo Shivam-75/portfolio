@@ -32,7 +32,6 @@
     margin: 20px 15px;
   }
   .project-card-h1 {
-    
     font-size: 3.5vmin;
     margin-top: 10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -43,7 +42,15 @@
 .project-card-h1 {
   font-size: 3.5vmin;
   font-family:Georgia, 'Times New Roman', Times, serif;
- 
+  transition: 0.8s;
+  text-decoration: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+}
+.project-card-h1:hover{
+  color: blue;
+
 }
 .project-card img{
     height: 100%;

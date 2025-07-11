@@ -16,10 +16,9 @@ const Contact = () => {
     draggable: true,
     theme: "light",
   };
-  const sendEmail = (e) => {
+  const sendEmail = async(e) => {
     e.preventDefault();
-    emailjs;
-    emailjs
+    await emailjs
       .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,

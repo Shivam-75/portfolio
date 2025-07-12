@@ -5,13 +5,10 @@
   gap: 2.5rem;
   justify-content: start;
   margin-top: 1rem;
-  margin-left: 3.3vmin;
 
 }
 
 .skill-card {
-  /* border:1px dashed rgb(220, 255, 139); */
-  /* color: rgb(139, 255, 230); */
 
 
   border-radius: 10px;
@@ -40,6 +37,10 @@
 @media (max-width: 750px) {
   .skills-cards-container {
     justify-content: center;
+    width: 100%;
+  }
+  .skill-card{
+    width: 90vmin;
   }
 }
 @media (max-width: 1140px) {

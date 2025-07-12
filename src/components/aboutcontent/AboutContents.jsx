@@ -5,7 +5,7 @@ import { item } from '../../store/item';
 
 const AboutContents = () => {
   return (
-    <div>
+    <>
       {" "}
       <SectionWrapper>
         <h1 className="about-title">About Me</h1>
@@ -52,7 +52,7 @@ const AboutContents = () => {
           collaboration, freelancing, and tech talks.
         </p>
       </SectionWrapper>
-    </div>
+    </>
   );
 }
 

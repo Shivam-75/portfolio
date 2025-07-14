@@ -9,7 +9,16 @@ import { FaGithub } from "react-icons/fa";
 import { FaRProject } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
+import { GrResume } from "react-icons/gr";
 const Nav = () => {
+   const downloadResume = () => {
+    const link = document.createElement("a");
+    link.href = "/shivam resume new.pdf"; // Replace with your actual file name
+    link.download = "shivam resume new.pdf"; // File will be downloaded with this name
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <header className="navbar">
       <aside className="navbar-aside">
@@ -43,6 +52,12 @@ const Nav = () => {
             <div className="ss-nav">
               <FaRProject />
               Project
+            </div>
+          </NavLink>
+          <NavLink className="navlink" onClick={downloadResume}>
+            <div className="ss-nav">
+              <GrResume />
+              Resume
             </div>
           </NavLink>
         </div>

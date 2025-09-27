@@ -1,106 +1,74 @@
-.header-home{
-    overflow: hidden;
-    padding: 20px 0;
+.header-home {
+  overflow: hidden;
 }
-.header-card{
-    height: 30vmin;
-    margin: auto;
-    width: 90%;
-    display: flex;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px rgb(238, 233, 233);
-    animation: fadeIn2 1s linear;
+.header-card-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  animation: fadeIn 1s linear;
 }
-.header-card-img{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    animation: fadeIn 1s linear;
-
-}
-.header-card-img img{
- height:200px;
- border-radius: 50px 10px 50px 10px;
+.header-card-img img {
+  height: 200px;
+  border-radius: 40%;
 }
 
-.header-content-name{
-    width: 100%;
+.shivam-pic {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.shivam-pic img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.shivam-pic p {
+  margin-top: 20px;
+}
+
+.header-paragraph {
+  line-height: 1.8;
+  text-align: justify;
+  padding-right: 10px;
+}
+
+@media (max-width: 750px) {
+  .header-card {
+    flex-wrap: wrap;
+    height: 230px;
     overflow: scroll;
-    padding: 20px;
+  }
 
-}
-.header-content-name p{
-    word-break:keep-all;
-    line-height: 23px;
-}
-.shivam-pic{
-    width: 70vmin;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  /* .shivam-pic {
+    width: 90vmin;
+  } */
+  .shivam-pic h4 {
+    font-size: 20px;
     padding: 10px;
-    box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px rgb(238, 233, 233);
-    border-radius: 10px;
-    text-transform: capitalize;
-
-}
-.shivam-pic h4{
-    font-size: 3.5vmin;
-}
-.header-content-name button{
-    width: 20vmin;
-    padding: 13px;
-    margin: 7px 10px;
-    border: none;
-    background: blue;
-    border-radius: 7px;
-}
-
-
-@media (max-width:750px) {
-    .header-card{
-        flex-wrap: wrap;
-        height: 230px;
-        overflow: scroll;
-    }
-    .header-content-name{
-        width: 100%;
-        margin: 0;
-        padding: 10px;
-        overflow: hidden;
-    }
-   
-    .header-content-name button{
-        width: 40vmin;
-        margin: 10px 0;
-    }
-    .shivam-pic{
-        width: 90vmin;
-
-    }
-    .shivam-pic h4{
-        font-size: 20px;
-        padding: 10px;
-    }
-    .shivam-pic img{
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-    }
-
+  }
+  .shivam-pic img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .header-paragraph{
+    width: 100%;
+  }
 }
 
 @keyframes fadeIn {
-    from{
-        opacity: 0;
-        transform: translateY(-120px);
-    }    
+  from {
+    opacity: 0;
+    transform: translateY(-120px);
+  }
 }
 @keyframes fadeIn2 {
-    from{
-        opacity: 0;
-        transform: translatex(-120px);
-    }    
+  from {
+    opacity: 0;
+    transform: translatex(-120px);
+  }
 }

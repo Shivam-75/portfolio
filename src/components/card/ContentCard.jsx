@@ -16,3 +16,4 @@ const ContentCard = ({ item }) => {
 };
 
 export default ContentCard;
+

@@ -1,6 +1,4 @@
 .projectpic {
-  height: 100vmin;
-  padding: 20px 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .projectpic-title {
@@ -8,23 +6,27 @@
   font-size: 5.5vmin;
 }
 .projectPic-main {
-  height: 90vh;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  overflow: scroll;
 }
 .project-card {
-  height: 230px;
-  width: 53vmin;
-  margin: 30px 15px;
+  border-radius: 20px;
+  width: 50vmin;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
+  margin: 20px;
 }
-@media (max-width:750px)  {
+.project-card img {
+  height: 250px;
+  width: 100%;
+  border-radius: 20px 0;
+    transition: 1s;
+
+}
+@media (max-width: 750px) {
   .projectPic-main {
-    height: 90vh;
     justify-content: space-around;
   }
   .project-card {
@@ -32,46 +34,36 @@
     margin: 20px 15px;
   }
   .project-card-h1 {
-    font-size: 3.5vmin;
+    font-size: 2.5vmin;
     margin-top: 10px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-   
+    font-family: Georgia, "Times New Roman", Times, serif;
   }
- 
 }
 .project-card-h1 {
-  font-size: 3.5vmin;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   transition: 0.8s;
   text-decoration: none;
   color: black;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3.3vmin;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 900;
 }
-.project-card-h1:hover{
+.project-card-h1:hover {
   color: blue;
-
-}
-.project-card img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 9px;
-    transition: 1s;
 }
 
-.project-card img:hover{
-    transform: translateY(-10px);
 
+.project-card img:hover {
+  transform: translateY(-10px);
 }
 
-@media (max-width:1103px) {
-  .projectPic-main{
+@media (max-width: 1103px) {
+  .projectPic-main {
     justify-content: center;
   }
 }
-@media (max-width:1303px) {
-  .projectPic-main{
+@media (max-width: 1303px) {
+  .projectPic-main {
     justify-content: center;
   }
 }

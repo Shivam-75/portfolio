@@ -52,15 +52,21 @@ const Contact = () => {
         <p>Your services</p>
       </div>
       <div className="contact-imgs">
-        <FaLocationDot className="contact-icons" />
-        <NavLink to="https://github.com/Shivam-75">
+        <NavLink
+          to="https://github.com/Shivam-75"
+          style={{ textDecoration: "none" }}>
           <FaGithub className="contact-icons" />
+          <p style={{ margin: " 0 -10px " }}>Git Hub</p>
         </NavLink>
-        <NavLink to="">
+        <NavLink to="" style={{ textDecoration: "none" }}>
           <FaFileDownload className="contact-icons" />
+          <p style={{ margin: " 0 -10px " }}>Resume</p>
         </NavLink>
-        <NavLink to="https://www.linkedin.com/in/shivam-pandey2006/">
+        <NavLink
+          to="https://www.linkedin.com/in/shivam-pandey2006/"
+          style={{ textDecoration: "none" }}>
           <FaLinkedin className="contact-icons" />
+          <p style={{ margin: " 0 -10px "}}>LinkedIn</p>
         </NavLink>
       </div>
       <ToastContainer />

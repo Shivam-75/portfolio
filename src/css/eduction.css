@@ -8,12 +8,12 @@
 }
 .eductiondata{
    width: 45vmin;
-   height: 390px;
    padding: 20px;
    box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px rgb(238, 233, 233);
    border-radius: 10px;
    transition: 1s;
    animation: fadeIn2 2s;
+   
 }
 
 .button-date{

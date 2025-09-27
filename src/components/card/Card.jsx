@@ -4,20 +4,19 @@ import SectionWrapper from "../scrol/SectionWraper";
 const Card = ({ item }) => {
   return (
     <>
-      
-        {item.map((item, index) => {
-          return (
-            <SectionWrapper>
-              <div key={index} className="card">
-                <div className="card-img">
-                  <div className="card-img-img">{item?.img}</div>
-                </div>
-                <h1 className="card-h1">{item.title}</h1>
-                <p>{item.description}</p>
+      {item.map((item, index) => {
+        return (
+          <SectionWrapper>
+            <div key={index} className="card">
+              <div className="card-img">
+                <div className="card-img-img">{item?.img}</div>
               </div>
-            </SectionWrapper>
-          );
-        })}
+              <h1 className="card-h1">{item.title}</h1>
+              <p>{item.description}</p>
+            </div>
+          </SectionWrapper>
+        );
+      })}
     </>
   );
 };

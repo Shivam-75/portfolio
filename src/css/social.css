@@ -2,12 +2,10 @@
   padding: 10px 20px;
   h1:first-child {
     text-align: center;
-    
   }
 }
 .contetent-cards {
-
-    margin-top: 50px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -19,7 +17,6 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    
   }
 }
 
@@ -46,17 +43,17 @@
   padding: 4px;
   h1:last-child {
     font-size: 13px;
+  }
 }
+.content-icons-div:hover {
+  transform: scale(1.1);
 }
-.content-icons-div:hover{
-    transform:scale(1.1)
+@media (max-width: 750px) {
+  .content-icons-div {
+    padding: 10px;
+    margin: 5px;
+  }
 }
-@media (max-width:750px) {
-    .content-icons-div{
-        padding: 10px;
-        margin: 5px;
-    }
-}
-.hr{
-    margin-top: 20px;
+.hr {
+  margin-top: 20px;
 }

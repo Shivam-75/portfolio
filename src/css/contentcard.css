@@ -9,11 +9,9 @@
 }
 
 .skill-card {
-
-
   border-radius: 10px;
-  padding: 1.2rem 1.5rem;
-  width: 250px;
+  padding:16px;
+  width: 280px;
   transition: transform 0.3s ease;
   box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px rgb(238, 233, 233);
 }

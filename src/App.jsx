@@ -6,7 +6,6 @@ import Service from "./page/service/Service";
 import Contact from "./page/contact/Contact";
 import About from "./page/about/About";
 import Project from "./page/Project/Project";
-import Socialmedia from "./components/socialmedia/Socialmedia";
 
 const App = () => {
   return (

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../css/nav.css";
 import { FaHome } from "react-icons/fa";
 import { IoPeople } from "react-icons/io5";
@@ -11,7 +11,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
 import { GrResume } from "react-icons/gr";
 const Nav = () => {
-   const downloadResume = () => {
+  const downloadResume = () => {
     const link = document.createElement("a");
     link.href = "/Shivam_W_D_Resume.pdf"; // Replace with your actual file name
     link.download = "Shivam_W_D_Resume.pdf"; // File will be downloaded with this name
@@ -22,7 +22,7 @@ const Nav = () => {
   return (
     <header className="navbar">
       <aside className="navbar-aside">
-        <h1 className="shivam-name">Rolex</h1>
+        <h1 className="shivam-name">Shivam</h1>
         <div className="nav-contetnts">
           <NavLink className="navlink" to="/">
             <div className="ss-nav">
@@ -70,5 +70,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-

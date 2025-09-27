@@ -13,8 +13,8 @@ import { GrResume } from "react-icons/gr";
 const Nav = () => {
    const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/shivam resume new.pdf"; // Replace with your actual file name
-    link.download = "shivam resume new.pdf"; // File will be downloaded with this name
+    link.href = "/Shivam_W_D_Resume.pdf"; // Replace with your actual file name
+    link.download = "Shivam_W_D_Resume.pdf"; // File will be downloaded with this name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

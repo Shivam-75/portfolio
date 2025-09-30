@@ -5,7 +5,7 @@ const Header = () => {
     <div className="header-home">
       <div className="header-card-img">
         <div className="shivam-pic">
-          <img src="/1731513252168 - Copy.jpg" alt="" />
+          <img src="/1731513252168 - Copy.jpg" loading="lazy" alt="" />
           <p className="header-paragraph">
             Hi, I'm Shivam Pandey, a passionate App Developer and Web Developer
             dedicated to crafting seamless digital experiences. I specialize in

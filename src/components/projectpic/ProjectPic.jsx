@@ -11,7 +11,7 @@ const ProjectPic = ({ project }) => {
         <div className="projectPic-main">
           {pr.map((items) => (
             <div className="project-card">
-              <img src={items.img} alt="" />
+              <img loading="lazy" src={items.img} alt="" />
               <NavLink to={items.github} className="project-card-h1">
                 {items.title}
               </NavLink>
